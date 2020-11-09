@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ch-en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>真题集</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        #card article{
+            float: left;
+        }
+        article{
+            width:300px;
+            height:410px;
+            /* border: 1px solid; */
+            background-color: #fff;
+            margin: 100px -150px 0 0;
+            transform: perspective(900px) rotateY(60deg);
+            box-shadow: 5px 5px 15px #999;
+            transition: all 0.5s;
+        }
+        img{
+            width:100px;
+            float: left;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        p{
+            padding: 20px;
+            text-indent:2em;
+            font-size: 12px;
+        }
+        #card article:hover{
+            transform: perspective(0) rotateY(0deg);
+            margin: 100px -30px 0 100px;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <a href=""><article>
+            <h2>集合真题</h2>
+            <p>介绍？什么介绍？</p>
+        </article></a>
+        <article>
+            <h2>不等式真题</h2>
+            <p>介绍？什么介绍？</p>
+        </article>
+        <article>
+            <h2>函数真题</h2>
+            <p>介绍？什么介绍？</p>
+        </article>
+    </div>
+</body>
+</html>
